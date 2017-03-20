@@ -182,7 +182,7 @@ class HJReadViewCell: UITableViewCell {
             }
             
             advertisementButton.frame = CGRect(x: HJSpaceTwo, y: height - HJAdvertisementButtonH - HJAdvertisementBottomSpaceH, width: ScreenWidth - 2*HJSpaceTwo, height: HJAdvertisementButtonH)
-            
+            contentView.bringSubview(toFront: advertisementButton)
             advertisementButton.isHidden = false
             
         }else{
